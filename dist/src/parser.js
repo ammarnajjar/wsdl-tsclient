@@ -107,6 +107,7 @@ function toPrimitiveType(type) {
         case "long":
         case "short":
         case "float":
+        case "double":
         case "decimal":
             return "number";
         case "bool":
