@@ -40,6 +40,7 @@ function toPrimitiveType(type: string): string {
         case "long":
         case "short":
         case "float":
+        case "double":
         case "decimal":
             return "number";
         case "bool":
